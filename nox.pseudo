@@ -1,0 +1,10 @@
+Noxcaelorum - Design Document
+
+Pseudocode
+
+Ask for seed value
+Ask for level (5 to 50)
+Ask for starting position X
+Ask for starting position Y
+Show direction options
+Ask for direction of movement (1:North; 2:East; 3:South; 4:West)
