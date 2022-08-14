@@ -18,9 +18,9 @@ And so I've finally decided to REALLY put some effort into this game once and fo
 ## Current Files
 The files on offer as of this writing (2022-08-14 or so) are as follows:
 
-* pseudo - my attempt at breaking down the workflow of the game from the original Noxcaelorum article;
-* noxcaelorum-og.bas - the actual code from the original game printed with the article... this would most likely run on a Commodore 64 or BBC Micro (although the ZX Spectrum is NOT supported); and
-* noxcaelorum.bas - a version of the program that will actually run / compile using the FreeBasic environment / compiler. This code has been tweaked to allow the program to run, and I have done so successfully on a Raspberry Pi using FreeBasic 1.09.0, with certain judicious edits.
+* nox.pseudo - my attempt at breaking down the workflow of the game from the original Noxcaelorum article;
+* NOXCAELORUM_OG.BAS - the actual code from the original game printed with the article... this would most likely run on a Commodore 64 or BBC Micro (although the ZX Spectrum is NOT supported); and
+* NOXCAELORUM.BAS - a version of the program that will actually run / compile using the FreeBasic environment / compiler. This code has been tweaked to allow the program to run, and I have done so successfully on a Raspberry Pi using FreeBasic 1.09.0, with certain judicious edits.
 
 It's important to note that using the program at this time still requires the use of a sheet of graph or grid paper, as well as a pen or pencil and an eraser. My intention is to allow the game to track player stats, to keep track of terrain / locations based on the seed and level variables (each game is different, after all), all while still allowing for player input rather than having the game play itself.
 
