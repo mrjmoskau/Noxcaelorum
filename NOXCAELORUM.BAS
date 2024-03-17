@@ -3,6 +3,7 @@
 '' It needs a LOT of work to fix it up, add some limitations, limit the size (for example,
 '' you can actually go out of the map), and program the actual steps that are described in the 
 '' article.
+'' 2024/03/17 - Procrastination Edition - I'm going to work on getting this... uh... working in Gambas, since FreeBasic is not well supported on the Raspberry Pi.
 
 #lang "fblite"
 
@@ -65,7 +66,7 @@ IF ASC(A) = 80 THEN BN = 10
 PT = (PM + PV + PE + 100 + BN ) / CA + .1
 FOR I = 1 TO PV: PRINT ".": NEXT I
 RT = INT ( RND (1) * 100)
-IF RT < = PT THEN PRINT "TOUCHE ! +"; INT (RT / 2.5);" PV OU PM":GOTO 590
+IF RT <= PT THEN PRINT "TOUCHE ! +"; INT (RT / 2.5);" PV OU PM":GOTO 590
 PRINT "RATE !"
 PRINT : PRINT
 590:
